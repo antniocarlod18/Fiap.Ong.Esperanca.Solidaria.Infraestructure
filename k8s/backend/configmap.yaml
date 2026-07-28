@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-config
+  namespace: default
+data:
+  ASPNETCORE_ENVIRONMENT: "Production"
+  JwtSettings__Issuer: "https://backend-api/auth/login"
+  JwtSettings__Audience: "https://backend-api/"
+  JwtSettings__ExpiresMinutes: "30"
+  MongoSettings__DatabaseName: "esperanca-solidaria-db"
+  MongoSettings__UsersCollectionName: "users"
+  MongoSettings__CampaignsCollectionName: "campaigns"
+  MongoSettings__DonationsCollectionName: "donations"
+  ElasticSearch__Uri: "http://elasticsearch:9200"
+  ElasticSearch__IndexName: "esperanca-solidaria-backend"
+  ElasticApm__ServerUrl: "http://apm-server:8200"
+  ElasticApm__ServiceName: "esperanca-solidaria-backend"
+  ElasticApm__Environment: "Production"
+  RabbitMq__Host: "rabbitmq"
+
+
+
+
+
+
+

@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="K3Hh2GbZX3Tupvwghvy5">
+    <mxGraphModel dx="1375" dy="1308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NJqVa_wK3OMVzQeGq0MG-69" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="110" width="200" x="710" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="NJqVa_wK3OMVzQeGq0MG-47" edge="1" parent="1" source="NJqVa_wK3OMVzQeGq0MG-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="NJqVa_wK3OMVzQeGq0MG-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NJqVa_wK3OMVzQeGq0MG-63" edge="1" parent="1" source="NJqVa_wK3OMVzQeGq0MG-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="NJqVa_wK3OMVzQeGq0MG-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NJqVa_wK3OMVzQeGq0MG-71" edge="1" parent="1" source="NJqVa_wK3OMVzQeGq0MG-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="NJqVa_wK3OMVzQeGq0MG-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590.06" y="477.53" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJqVa_wK3OMVzQeGq0MG-34" parent="1" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api" value="Fiap.Ong.Esperanca.Solidaria" vertex="1">
+          <mxGeometry height="48" width="50" x="590" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="NJqVa_wK3OMVzQeGq0MG-58" edge="1" parent="1" source="NJqVa_wK3OMVzQeGq0MG-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="NJqVa_wK3OMVzQeGq0MG-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NJqVa_wK3OMVzQeGq0MG-35" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.client;" value="Client" vertex="1">
+          <mxGeometry height="76" width="78" x="150" y="195.5" as="geometry" />
+        </mxCell>
+        <mxCell id="NJqVa_wK3OMVzQeGq0MG-45" parent="1" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://miro.medium.com/1*DYo46Vsvc5vFo6mR9I3piQ.png;" value="DonationReceivedEvent" vertex="1">
+          <mxGeometry height="70" width="60" x="790" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NJqVa_wK3OMVzQeGq0MG-54" edge="1" parent="1" source="NJqVa_wK3OMVzQeGq0MG-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="NJqVa_wK3OMVzQeGq0MG-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NJqVa_wK3OMVzQeGq0MG-46" parent="1" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://miro.medium.com/1*DYo46Vsvc5vFo6mR9I3piQ.png;" value="DonationProcessedEvent" vertex="1">
+          <mxGeometry height="70" width="60" x="790" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="NJqVa_wK3OMVzQeGq0MG-53" edge="1" parent="1" source="NJqVa_wK3OMVzQeGq0MG-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="NJqVa_wK3OMVzQeGq0MG-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1055" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJqVa_wK3OMVzQeGq0MG-62" edge="1" parent="1" source="NJqVa_wK3OMVzQeGq0MG-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="NJqVa_wK3OMVzQeGq0MG-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NJqVa_wK3OMVzQeGq0MG-72" edge="1" parent="1" source="NJqVa_wK3OMVzQeGq0MG-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="NJqVa_wK3OMVzQeGq0MG-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1070.06" y="505.06" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJqVa_wK3OMVzQeGq0MG-48" parent="1" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api" value="Fiap.Ong.Esperanca.Solidaria.Worker" vertex="1">
+          <mxGeometry height="48" width="50" x="1030" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="NJqVa_wK3OMVzQeGq0MG-51" edge="1" parent="1" source="NJqVa_wK3OMVzQeGq0MG-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="NJqVa_wK3OMVzQeGq0MG-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NJqVa_wK3OMVzQeGq0MG-59" edge="1" parent="1" source="NJqVa_wK3OMVzQeGq0MG-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="NJqVa_wK3OMVzQeGq0MG-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NJqVa_wK3OMVzQeGq0MG-70" edge="1" parent="1" source="NJqVa_wK3OMVzQeGq0MG-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="NJqVa_wK3OMVzQeGq0MG-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390.06" y="505.06" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJqVa_wK3OMVzQeGq0MG-57" parent="1" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://blazeofcode.wordpress.com/wp-content/uploads/2019/04/brandblazor_nohalo_1000x-1.png;" value="Fiap.Ong.Esperanca.Solidaria.BlazorApp" vertex="1">
+          <mxGeometry height="61" width="60" x="370" y="203" as="geometry" />
+        </mxCell>
+        <mxCell id="NJqVa_wK3OMVzQeGq0MG-60" parent="1" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://arquivo.devmedia.com.br/marketing/img/artigo-nosql-hospedando-bancos-de-dados-mongodb-31056.png;" value="esperanca-solidaria-db" vertex="1">
+          <mxGeometry height="41.8" width="80" x="575" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NJqVa_wK3OMVzQeGq0MG-61" parent="1" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://arquivo.devmedia.com.br/marketing/img/artigo-nosql-hospedando-bancos-de-dados-mongodb-31056.png;" value="esperanca-solidaria-donations-db" vertex="1">
+          <mxGeometry height="41.8" width="80" x="1120" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NJqVa_wK3OMVzQeGq0MG-65" parent="1" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzAmtd625YNTVuKKq4RVvkm7wpbij7Pglse_DKxOeLKGMCY1xtxI8CSU8&amp;s=10;" value="Logs ElasticSearch" vertex="1">
+          <mxGeometry height="60" width="60" x="740" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="NJqVa_wK3OMVzQeGq0MG-76" edge="1" parent="1" source="NJqVa_wK3OMVzQeGq0MG-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="NJqVa_wK3OMVzQeGq0MG-74">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="858.53" y="590" />
+              <mxPoint x="1210.06" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJqVa_wK3OMVzQeGq0MG-67" parent="1" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/1280px-Prometheus_software_logo.svg.png;" value="Prometheus" vertex="1">
+          <mxGeometry height="64" width="63" x="827" y="456" as="geometry" />
+        </mxCell>
+        <mxCell id="NJqVa_wK3OMVzQeGq0MG-74" parent="1" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://images.icon-icons.com/2699/PNG/512/grafana_logo_icon_171049.png;" value="" vertex="1">
+          <mxGeometry height="80" width="140" x="1130" y="480" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

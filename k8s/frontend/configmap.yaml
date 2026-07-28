@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: frontend-config
+  namespace: default
+data:
+  ApiBaseUrl: "http://backend-api"
+  ApiBaseDonationsUrl: "http://worker"
+  ASPNETCORE_ENVIRONMENT: "Production"
+  ElasticSearch__Uri: "http://elasticsearch:9200"
+  ElasticSearch__IndexName: "esperanca-solidaria-frontend"
+  ElasticApm__ServerUrl: "http://apm-server:8200"
+  ElasticApm__ServiceName: "esperanca-solidaria-frontend"
+  ElasticApm__Environment: "Production"
